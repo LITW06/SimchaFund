@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimchaFund.Web", "SimchaFund.Web\SimchaFund.Web.csproj", "{31023A1B-E239-4F73-8559-0130DF249465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimchaFund.Data", "SimchaFund.Data\SimchaFund.Data.csproj", "{3CA42B75-D1DC-4AA8-84A3-96501399A39A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31023A1B-E239-4F73-8559-0130DF249465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31023A1B-E239-4F73-8559-0130DF249465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31023A1B-E239-4F73-8559-0130DF249465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31023A1B-E239-4F73-8559-0130DF249465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA42B75-D1DC-4AA8-84A3-96501399A39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA42B75-D1DC-4AA8-84A3-96501399A39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA42B75-D1DC-4AA8-84A3-96501399A39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA42B75-D1DC-4AA8-84A3-96501399A39A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
